@@ -126,23 +126,22 @@ Most customers fall into the low frequency and low value group, while only a sma
 All customers are classified as "Cold". This is because the dataset is from 2011, while recency is calculated using the current date. As a result, all customers appear inactive.
 
 ---
-
 ## Project Structure
 
+```text
 ecommerce_project/
-
+│
 ├── data/
 │   └── online_retail.csv (raw dataset)
-
+│
 ├── sql/
 │   ├── 01_schema.sql (table creation)
 │   ├── 02_cleaning.sql (data cleaning)
 │   └── 03_analysis.sql (analysis queries)
-
+│
 ├── README.md
-
 ├── requirements.txt
-├── .gitignore
+└── .gitignore
 
 
 ---
